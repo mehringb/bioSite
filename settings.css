@@ -62,6 +62,7 @@ a:hover{
     margin: 10px;
     background-color: rgba(191,216,210);
     max-width: 1000px;
+
 }
 .image{
     padding: 15px;
@@ -81,4 +82,17 @@ h6{
     font-family: 'Handlee', cursive;
     text-align: center;
     font-size: 8px;
+}
+.images{
+
+    text-align: center;
+}
+.grid-hobby{
+    display: grid;
+    grid-template-columns: repeat(3,);
+
+}
+.hobby{
+    background-color: rgba(191,216,210);
+    margin: 50px;
 }
