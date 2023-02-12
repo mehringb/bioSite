@@ -1,0 +1,84 @@
+header{
+    text-align: center;
+}
+h1{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 66px;
+}
+h2{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 32px;
+}
+h3{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+h4{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 14px;
+}
+p{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+.grid-item{
+    background-color: rgba(191,216,210);
+    margin: 50px;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.button{
+    margin: 45px;
+}
+.singlebutton{
+    display: grid;
+    grid-template: repeat(1,auto);
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.aboutmecontainer{
+    margin: 10px;
+    background-color: rgba(191,216,210);
+    max-width: 1000px;
+}
+.image{
+    padding: 15px;
+    float: left;
+    
+}
+.text{
+    padding:10px 2px;
+}
+.contains{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px; 
+}
+h6{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 8px;
+}
