@@ -4,7 +4,6 @@ Module 7 Assignment bioSite: Development
 2/8/2023*/
 header{
     text-align: center;
-    color: white;
 }
 h1{
     font-family: 'Sriracha', cursive;
@@ -42,7 +41,7 @@ p{
 }
 .container-grid{
     display: grid;
-    
+    grid-template-columns: repeat(2,auto);
 }
 .grid{
     display: grid;
@@ -50,6 +49,11 @@ p{
 }
 .button{
     margin: 45px;
+}
+.singlebutton{
+    display: grid;
+    grid-template: repeat(1,auto);
+    text-align: center;
 }
 a{
     color: black;
@@ -61,20 +65,16 @@ a:hover{
 .aboutmecontainer{
     margin: 10px;
     background-color: rgba(191,216,210);
-    max-width: 1200px;
-    min-width: 550px;
+    max-width: 1000px;
 
 }
 .image{
     padding: 15px;
-    margin-top: 15px;
     float: left;
     
 }
 .text{
-    text-align: left;
-    margin: 25px 25px 25px 0px;
-
+    padding:10px 2px;
 }
 .contains{
     display: grid;
@@ -99,39 +99,4 @@ h6{
 .hobby{
     background-color: rgba(191,216,210);
     margin: 50px;
-}
-body{
-    background-color: rgba(254,220,210,.5);
-}
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.buttonlanding{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    background-color: rgba(223,116,74);
-    color: white;
-    border: none;
-    margin: 50px;
-
-}
-.headingaboutme{
-    background-color: rgba(220,178,57);
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.signature{
-    font-family: "Sacramento", cursive;
-    font-size: 60px;
-    text-align: center;
-}
-.landingheading{
-    background-color: rgba(223,116,74);
 }
