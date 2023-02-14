@@ -102,6 +102,7 @@ h6{
 }
 body{
     background-color: rgba(254,220,210,.5);
+
 }
 footer{
     display: flex;
@@ -134,4 +135,13 @@ main{
 }
 .landingheading{
     background-color: rgba(223,116,74);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonaboutme,.buttonhobbies{
+    width: 350px;
+    margin: 50px;
 }
