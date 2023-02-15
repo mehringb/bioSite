@@ -145,3 +145,13 @@ main{
     width: 350px;
     margin: 50px;
 }
+.buttonaboutme{
+    background-color: rgba(220,178,57);
+    color: white;
+    border: none;
+}
+.buttonhobbies{
+    background-color: rgba(115,114,46);
+    border: none;
+    color: white;
+}
