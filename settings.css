@@ -10,6 +10,7 @@ h1{
     font-family: 'Sriracha', cursive;
     text-align: center;
     font-size: 66px;
+    margin-top: 0px;
 }
 h2{
     font-family: 'Sriracha', cursive;
@@ -159,4 +160,7 @@ main{
 }
 .black{
     color: black;
+}
+.hobbiesheading{
+    background: rgba(115,114,46);
 }
