@@ -39,7 +39,7 @@ p{
 }
 .grid-item{
     background-color: rgba(191,216,210);
-    margin: 50px;
+    margin: 30px;
 }
 .container-grid{
     display: grid;
