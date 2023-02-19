@@ -52,7 +52,6 @@ p{
     margin: 45px;
 }
 a{
-    color: black;
     text-decoration: none;
 }
 a:hover{
@@ -154,4 +153,10 @@ main{
     background-color: rgba(115,114,46);
     border: none;
     color: white;
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
 }
