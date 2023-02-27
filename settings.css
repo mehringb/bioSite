@@ -110,18 +110,12 @@ footer{
     align-items: center;
 }
 .buttonlanding{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    background-color: rgba(223,116,74);
-    color: white;
     border: none;
-    margin: 50px;
-
+    color: white;
+    background-color: rgba(223,116,74);
 }
 .headingaboutme{
-    background-color: rgba(220,178,57);
+    background-color: rgba(41, 13, 108,.65);
 }
 main{
     display: flex;
@@ -141,12 +135,12 @@ main{
     justify-content: center;
     align-items: center;
 }
-.buttonaboutme,.buttonhobbies{
+.buttonaboutme,.buttonhobbies,.buttonlanding{
     width: 350px;
     margin: 50px;
 }
 .buttonaboutme{
-    background-color: rgba(220,178,57);
+    background-color: rgba(41, 13, 108,.65);
     color: white;
     border: none;
 }
