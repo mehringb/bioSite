@@ -30,7 +30,7 @@ h4{
 p{
     font-family: 'Handlee', cursive;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 .grid-container{
     display: grid;
@@ -41,6 +41,7 @@ p{
 }
 .grid-item{
     background-color: rgba(191,216,210);
+    max-height: 700px;
     margin: 30px;
 }
 .container-grid{
